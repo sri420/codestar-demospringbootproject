@@ -31,8 +31,8 @@ public class ApplicationConfig {
     }
 
     @Bean
-    public HelloWorldController demo() {
-        return new Demo`Controller(this.siteName);
+    public DemoController demo() {
+        return new DemoController(this.siteName);
     }
     /**
      * Required to inject properties using the 'Value' annotation.
